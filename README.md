@@ -1,32 +1,46 @@
-# React + TypeScript + Vite
+# MikuTodo
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Smart task management dashboard built with React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Glassmorphism UI inspired by modern productivity dashboards
+- Accent color `#39b5cc`
+- Light & dark mode (persisted)
+- Chinese / English i18n (persisted)
+- Responsive layout for desktop, laptop, iPad, and mobile
+- Task board, 3D document stack, smart detail panel, and project timeline
+- Custom **MikuTodo** logo (checkmark + M mark in teal)
 
-## React Compiler
+## Getting started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Open [http://localhost:5173](http://localhost:5173)
+
+Build for production:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Controls
+
+| Control | Action |
+|--------|--------|
+| Sun / Moon | Toggle light / dark mode |
+| 中 / EN | Switch Chinese / English |
+| **New Task** | Add a task to the board |
+| Task row | Select task & open smart details |
+| **Complete Task** | Mark selected task done |
+
+## Stack
+
+- Vite + React 19 + TypeScript
+- Tailwind CSS v4
+- i18next / react-i18next
+- Lucide icons
