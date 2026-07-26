@@ -1,0 +1,109 @@
+{
+  "brand": "MikuTodo",
+  "tagline": "Plan smart · Collaborate · Get results",
+  "nav": {
+    "tasks": "Task Manager",
+    "overview": "Project Overview",
+    "files": "File Archive",
+    "schedule": "Schedule",
+    "team": "Team Collab",
+    "analytics": "Smart Analytics",
+    "knowledge": "Knowledge Base",
+    "settings": "Settings"
+  },
+  "workspace": {
+    "title": "My Workspace",
+    "product": "Product R&D Hub",
+    "add": "Add workspace"
+  },
+  "header": {
+    "title": "Task Manager",
+    "subtitle": "Efficient planning · Smart collaboration · Results-driven",
+    "search": "Search tasks, projects or files...",
+    "newTask": "New Task",
+    "notifications": "Notifications",
+    "messages": "Messages"
+  },
+  "stats": {
+    "todo": "Due Today",
+    "inProgress": "In Progress",
+    "done": "Completed",
+    "overdue": "Overdue",
+    "tasks": "tasks",
+    "vsYesterday": "vs yesterday"
+  },
+  "board": {
+    "title": "Task Board",
+    "all": "All Tasks",
+    "mine": "Assigned to Me",
+    "participating": "Participating",
+    "status": "Status",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "requirements": "Requirements Review",
+    "design": "Product Design",
+    "dev": "Development",
+    "inProgress": "In Progress",
+    "pending": "Pending"
+  },
+  "stack": {
+    "projectDocs": "Project Docs",
+    "completion": "Complete",
+    "reqReview": "Req Review",
+    "prototype": "Prototype",
+    "dev": "Development",
+    "whitepaper": "Whitepaper"
+  },
+  "detail": {
+    "title": "Smart Details",
+    "search": "Search details...",
+    "priority": "Priority",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "assignee": "Assignee",
+    "project": "Project",
+    "deadline": "Deadline",
+    "status": "Status",
+    "tags": "Tags",
+    "description": "Align with business on core goals and acceptance criteria. Output review conclusions.",
+    "aiTitle": "AI Assistant Tips",
+    "aiTip1": "Link 3 similar historical review docs",
+    "aiTip2": "Risk detected: requirement scope may change",
+    "viewDetails": "View Suggestion Details",
+    "edit": "Edit Task",
+    "complete": "Complete Task",
+    "criticalPath": "Critical Path",
+    "requirement": "Requirement"
+  },
+  "timeline": {
+    "title": "Project Timeline",
+    "today": "Today",
+    "week": "Week",
+    "month": "Month",
+    "reqReview": "Requirements Review",
+    "interaction": "Interaction Design",
+    "coreDev": "Core Feature Dev",
+    "testing": "Testing & QA"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "lang": {
+    "zh": "中文",
+    "en": "EN"
+  },
+  "mobile": {
+    "menu": "Menu",
+    "close": "Close",
+    "details": "Details"
+  },
+  "status": {
+    "todo": "To Do",
+    "inProgress": "In Progress",
+    "done": "Done",
+    "overdue": "Overdue"
+  }
+}
